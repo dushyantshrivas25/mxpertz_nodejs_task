@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">  
+</head>
+<body>
+
+    <div class="container w-75 mt-5" style="background-image: url(https://images.unsplash.com/photo-1595617795501-9661aafda72a?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);">
+        <form method="post" action="/Add_Student_Profile">
+                    <!-- Student_Details  -->
+                    <label for="exampleInput" class="form-label fs-3 text-white">Student-Details</label>
+                    <div class="mb-3 d-flex justify-content-start ">
+                        <div > 
+                            <label for="exampleInput" class="form-label display-5 text-white">Batch</label>
+                            <input type="number" name="Batch" class="form-control" id="exampleInput">
+                        </div>
+                        <div class="mx-5 w-50" >
+                            <label for="exampleInput"  class="form-label text-white">Student Name</label>
+                            <input type="text" placeholder="John Doe" name="Student_Name" class="form-control" id="exampleInput">
+                        </div>
+                    </div>
+
+                    <div class=" container mb-3 d-flex justify-content-start">
+                        <div > 
+                            <label for="exampleInput" class="form-label text-white">College Name</label>
+                            <input type="text" placeholder="Delhi University" name="College" class="form-control m-1 " id="exampleInput">
+                        </div>
+                        <div class="mx-5 w-50" >
+                        <label for="exampleInput" class="form-label text-white">Student Status</label>
+                        <input type="text" name="Status" placeholder="Placed or Not" class="form-control" id="exampleInput">
+                        </div>
+                </div>
+                    
+                <!-- Course Details -->
+                <label for="exampleInput" class="form-label fs-3 text-white">Course Score</label>
+                    <div class="mb-3 d-flex justify-content-start">
+                        <div > 
+                            <label for="exampleInput" class="form-label text-white">DSA-Score</label>
+                            <input type="number" name="DSA_Final_Score" class="form-control" id="exampleInput">
+                        </div>
+                        <div class="mx-5 w-50" >
+                            <label for="exampleInput" class="form-label text-white">WebD-Score</label>
+                            <input type="number" name="WebD_final_Score" class="form-control" id="exampleInput">
+                        </div>
+                    </div>
+
+                    <div class="mb-3 d-flex justify-content-start">
+                        <div > 
+                            <label for="exampleInput" class="form-label text-white ">React-Score</label>
+                            <input type="number" name="React_Final_Score" class="form-control " id="exampleInput">
+                        </div>
+                </div>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+</body>
+</html>
